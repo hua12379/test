@@ -1,0 +1,387 @@
+[2025-09-26 09:06:07.300] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:06:07.300] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:06:07.300] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:06:07.300] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f9d414540
+[2025-09-26 09:06:07.300] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 09:06:08.545] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:06:08.546] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:06:08.546] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:06:11.239] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0360022
+[2025-09-26 09:06:11.284] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 09:06:11.305] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(124)]: 0  mpv 错误： unrecognized file format
+[2025-09-26 09:06:11.309] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual void MpvPlayer::onMpvEvents(int, my_mpv_event_id)), Line:(381)]: 关闭 0  mpv耗时： 0.00341367
+[2025-09-26 09:21:35.441] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:21:35.441] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:21:35.442] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:21:35.442] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f62a09540
+[2025-09-26 09:21:35.442] [critical]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(89)]: [TimeSync] "Failed to bind UDP socket to port 7756"
+[2025-09-26 09:21:35.442] [warning]: [File:(), Function(), Line:(0)]: QNativeSocketEngine::hasPendingDatagrams() was called in QAbstractSocket::UnconnectedState
+[2025-09-26 09:21:36.731] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:21:36.731] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:21:36.731] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:21:39.304] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-26 09:21:39.305] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:21:39.305] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:22:58.642] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:22:58.642] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:22:58.642] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:22:58.642] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f5f4af540
+[2025-09-26 09:22:58.642] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 09:22:59.941] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:22:59.941] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:22:59.941] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:24:33.096] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:24:33.096] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:27:49.154] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:27:49.154] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:27:49.154] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:27:49.154] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7fa1f67540
+[2025-09-26 09:27:49.154] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 09:27:50.416] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:27:50.416] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:27:50.417] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:33:48.705] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:33:48.705] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:33:48.705] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:33:48.706] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f5fffe540
+[2025-09-26 09:33:48.706] [critical]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(89)]: [TimeSync] "Failed to bind UDP socket to port 7756"
+[2025-09-26 09:33:48.706] [warning]: [File:(), Function(), Line:(0)]: QNativeSocketEngine::hasPendingDatagrams() was called in QAbstractSocket::UnconnectedState
+[2025-09-26 09:33:49.965] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:33:49.965] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:33:49.966] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:34:04.841] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-26 09:34:04.841] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:34:04.841] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:39:37.777] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:39:37.778] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:49:18.825] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:49:18.825] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:49:22.070] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:49:22.070] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:49:22.070] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:49:22.070] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f67ffe540
+[2025-09-26 09:49:22.070] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 09:49:23.360] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:49:23.360] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:49:23.360] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:49:32.505] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-26 09:49:32.505] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:49:32.505] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:50:25.774] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 09:50:25.774] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 09:50:25.774] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 09:50:25.774] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f9b683540
+[2025-09-26 09:50:25.775] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 09:50:27.054] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 09:50:27.054] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 09:50:27.054] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 09:51:39.046] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 09:51:39.047] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:01:17.225] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:01:17.226] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:01:17.226] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:01:17.226] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:01:17.226] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f95c1d540
+[2025-09-26 10:01:18.510] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:01:18.511] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:01:18.511] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:01:22.792] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::handleUdpData()), Line:(116)]: [TimeSync] Received UDP datagram from "192.168.1.97" size: 28
+[2025-09-26 10:01:22.793] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(16)]: [TimeSyncWorker] Processing UDP data, size: 28
+[2025-09-26 10:01:22.793] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(31)]: [TimeSyncWorker] UDP time parsed successfully: "2024-07-31 23:59:58"
+[2025-09-26 10:01:22.793] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(203)]: [TimeSync] ======== FIRST TIME SYNC SUCCESS ========
+[2025-09-26 10:01:22.793] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(204)]: [TimeSync] Synced time: "2024-07-31 23:59:58"
+[2025-09-26 10:01:22.794] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(205)]: [TimeSync] =========================================
+[2025-09-26 10:01:23.819] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::handleUdpData()), Line:(116)]: [TimeSync] Received UDP datagram from "192.168.1.97" size: 28
+[2025-09-26 10:01:23.819] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(16)]: [TimeSyncWorker] Processing UDP data, size: 28
+[2025-09-26 10:01:23.819] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(31)]: [TimeSyncWorker] UDP time parsed successfully: "2024-07-31 23:59:58"
+[2025-09-26 10:01:23.820] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(208)]: [TimeSync] Time updated: "2024-07-31 23:59:58"
+[2025-09-26 10:01:24.915] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::handleUdpData()), Line:(116)]: [TimeSync] Received UDP datagram from "192.168.1.97" size: 28
+[2025-09-26 10:01:24.915] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(16)]: [TimeSyncWorker] Processing UDP data, size: 28
+[2025-09-26 10:01:24.916] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(31)]: [TimeSyncWorker] UDP time parsed successfully: "2024-07-31 23:59:58"
+[2025-09-26 10:01:24.916] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(208)]: [TimeSync] Time updated: "2024-07-31 23:59:58"
+[2025-09-26 10:01:55.253] [warning]: [File:(../TimeSync.cpp), Function(void TimeSync::checkSyncTimeout()), Line:(190)]: [TimeSync] Sync lost - no update for 36410517253 ms
+[2025-09-26 10:01:57.644] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:01:57.644] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:02:47.382] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:02:47.382] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:02:47.382] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:02:47.382] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f5ea5f540
+[2025-09-26 10:02:47.383] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:02:48.640] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:02:48.640] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:02:48.640] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:02:53.389] [debug]: [File:(../TimeSync.cpp), Function(void TimeSync::handleUdpData()), Line:(116)]: [TimeSync] Received UDP datagram from "192.168.1.97" size: 28
+[2025-09-26 10:02:53.390] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(16)]: [TimeSyncWorker] Processing UDP data, size: 28
+[2025-09-26 10:02:53.390] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processUdpData(const QByteArray&)), Line:(31)]: [TimeSyncWorker] UDP time parsed successfully: "2024-07-31 23:59:58"
+[2025-09-26 10:02:53.391] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(203)]: [TimeSync] ======== FIRST TIME SYNC SUCCESS ========
+[2025-09-26 10:02:53.391] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(204)]: [TimeSync] Synced time: "2024-07-31 23:59:58"
+[2025-09-26 10:02:53.391] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(205)]: [TimeSync] =========================================
+[2025-09-26 10:03:23.259] [warning]: [File:(../TimeSync.cpp), Function(void TimeSync::checkSyncTimeout()), Line:(190)]: [TimeSync] Sync lost - no update for 36410605259 ms
+[2025-09-26 10:03:31.172] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:03:31.173] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:09:14.345] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:09:14.345] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:09:14.345] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:09:14.345] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f819ac540
+[2025-09-26 10:09:14.345] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:09:15.612] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:09:15.612] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:15.612] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:18.037] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0169925
+[2025-09-26 10:09:18.127] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 10:09:18.572] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 10:09:18.572] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 10:09:18.572] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 10:09:18.572] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 10:09:18.653] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 10:09:18.673] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 10:09:18.683] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 10:09:18.683] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:18.683] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:18.704] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 10:09:18.704] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:18.705] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:19.158] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 10:09:19.158] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 10:09:19.159] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-26 10:09:25.097] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vo/gpu/x11 ]  warn :  Our window was destroyed, exiting
+
+[2025-09-26 10:09:25.097] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vo/gpu/x11 ]  warn :  Our window was destroyed, exiting
+
+[2025-09-26 10:09:25.126] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:09:25.127] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 10:09:33.647] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:09:33.647] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:09:33.648] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:09:33.648] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f890bc540
+[2025-09-26 10:09:33.648] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:09:34.898] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:09:34.898] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:34.899] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:37.581] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0169202
+[2025-09-26 10:09:37.615] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 10:09:38.624] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 10:09:38.625] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 10:09:38.625] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 10:09:38.625] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 10:09:38.706] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 10:09:38.718] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 10:09:38.719] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:38.719] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:38.739] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 10:09:38.740] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:09:38.740] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:09:38.788] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 10:09:39.272] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 10:09:39.272] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 10:09:39.292] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-26 10:09:40.948] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 1
+[2025-09-26 10:09:40.948] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 2
+[2025-09-26 10:09:40.949] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 3
+[2025-09-26 10:09:40.949] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 4
+[2025-09-26 10:09:40.949] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 5
+[2025-09-26 10:09:40.949] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 6
+[2025-09-26 10:09:40.950] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 7
+[2025-09-26 10:09:40.950] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 8
+[2025-09-26 10:09:40.950] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 9
+[2025-09-26 10:09:40.950] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 10
+[2025-09-26 10:09:40.950] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 11
+[2025-09-26 10:09:40.951] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 12
+[2025-09-26 10:09:40.951] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 13
+[2025-09-26 10:09:40.951] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 14
+[2025-09-26 10:09:40.951] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 15
+[2025-09-26 10:09:40.968] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(118)]: 0  mpv 播放器退出!
+[2025-09-26 10:11:26.928] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:11:26.928] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:11:26.929] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:11:26.929] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:11:26.929] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f8e134540
+[2025-09-26 10:11:28.191] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:11:28.192] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:11:28.192] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:11:30.317] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0169846
+[2025-09-26 10:11:30.402] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 10:11:31.169] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 10:11:31.169] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 10:11:31.170] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 10:11:31.170] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 10:11:31.251] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 10:11:31.262] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 10:11:31.263] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:11:31.263] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:11:31.283] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 10:11:31.283] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:11:31.284] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:11:31.332] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 10:11:31.837] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 10:11:31.837] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 10:11:31.837] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-26 10:11:33.556] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 1
+[2025-09-26 10:11:33.556] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 2
+[2025-09-26 10:11:33.557] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 3
+[2025-09-26 10:11:33.557] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 4
+[2025-09-26 10:11:33.557] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 5
+[2025-09-26 10:11:33.557] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 6
+[2025-09-26 10:11:33.558] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 7
+[2025-09-26 10:11:33.558] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 8
+[2025-09-26 10:11:33.558] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 9
+[2025-09-26 10:11:33.558] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 10
+[2025-09-26 10:11:33.559] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 11
+[2025-09-26 10:11:33.559] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 12
+[2025-09-26 10:11:33.559] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 13
+[2025-09-26 10:11:33.559] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 14
+[2025-09-26 10:11:33.559] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 15
+[2025-09-26 10:11:33.634] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(118)]: 0  mpv 播放器退出!
+[2025-09-26 10:11:57.823] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:11:57.823] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:11:57.823] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:11:57.823] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f6b616540
+[2025-09-26 10:11:57.823] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:11:59.066] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:11:59.067] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:11:59.067] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:00.949] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.016812
+[2025-09-26 10:12:00.993] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 10:12:01.458] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 10:12:01.458] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 10:12:01.459] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 10:12:01.459] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 10:12:01.560] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 10:12:01.572] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 10:12:01.572] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:12:01.572] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:01.602] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 10:12:01.602] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:12:01.602] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:01.621] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 10:12:02.045] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 10:12:02.045] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 10:12:02.065] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-26 10:12:03.922] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 1
+[2025-09-26 10:12:03.922] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 2
+[2025-09-26 10:12:03.922] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 3
+[2025-09-26 10:12:03.923] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 4
+[2025-09-26 10:12:03.923] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 5
+[2025-09-26 10:12:03.923] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 6
+[2025-09-26 10:12:03.924] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 7
+[2025-09-26 10:12:03.924] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 8
+[2025-09-26 10:12:03.925] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 9
+[2025-09-26 10:12:03.925] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 10
+[2025-09-26 10:12:03.925] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 11
+[2025-09-26 10:12:03.925] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 12
+[2025-09-26 10:12:03.926] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 13
+[2025-09-26 10:12:03.926] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 14
+[2025-09-26 10:12:03.926] [warning]: [File:(../player/MpvPlayer.cpp), Function(virtual bool MpvPlayer::stopPlay(int)), Line:(168)]: Invalid mpv handle. handle: 15
+[2025-09-26 10:12:03.963] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(118)]: 0  mpv 播放器退出!
+[2025-09-26 10:12:40.622] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 10:12:40.622] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 10:12:40.622] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 10:12:40.622] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f729fb540
+[2025-09-26 10:12:40.622] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 10:12:41.860] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 10:12:41.860] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:12:41.860] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:43.627] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0176598
+[2025-09-26 10:12:43.670] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 10:12:44.094] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 10:12:44.094] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 10:12:44.095] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 10:12:44.095] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 10:12:44.196] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 10:12:44.210] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 10:12:44.211] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:12:44.211] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:44.239] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 10:12:44.240] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 10:12:44.240] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 10:12:44.257] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 10:12:44.701] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 10:12:44.701] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 10:12:44.702] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-26 14:15:47.210] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 14:15:47.210] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 14:15:47.210] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 14:15:47.211] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f89d73540
+[2025-09-26 14:15:47.211] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 14:15:48.464] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 14:15:48.465] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 14:15:48.465] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 14:15:50.588] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0171319
+[2025-09-26 14:15:50.681] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 14:15:50.682] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(124)]: 0  mpv 错误： unrecognized file format
+[2025-09-26 14:15:50.692] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual void MpvPlayer::onMpvEvents(int, my_mpv_event_id)), Line:(381)]: 关闭 0  mpv耗时： 0.00952029
+[2025-09-26 14:15:59.764] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 14:15:59.765] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-26 14:18:36.994] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-26 14:18:36.994] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-26 14:18:36.995] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-26 14:18:36.995] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f9d55e540
+[2025-09-26 14:18:36.995] [info]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(94)]: [TimeSync] UDP socket bound to port 7756 - waiting for time packets
+[2025-09-26 14:18:38.293] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-26 14:18:38.294] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 14:18:38.294] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 14:18:40.150] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0168697
+[2025-09-26 14:18:40.208] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-26 14:18:40.693] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-26 14:18:40.693] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-26 14:18:40.693] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-26 14:18:40.694] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-26 14:18:40.754] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-26 14:18:40.770] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-26 14:18:40.770] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 14:18:40.771] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 14:18:40.801] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-26 14:18:40.801] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-26 14:18:40.801] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-26 14:18:40.816] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-26 14:18:41.280] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-26 14:18:41.280] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-26 14:18:41.280] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+

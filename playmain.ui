@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>playMain</class>
+ <widget class="QWidget" name="playMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>859</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>国防监控主画面 </string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

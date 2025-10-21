@@ -1,0 +1,2 @@
+[2025-09-26 09:21:35.442] [critical]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(89)]: [TimeSync] "Failed to bind UDP socket to port 7756"
+[2025-09-26 09:33:48.706] [critical]: [File:(../TimeSync.cpp), Function(bool TimeSync::bindUdpPort(quint16)), Line:(89)]: [TimeSync] "Failed to bind UDP socket to port 7756"

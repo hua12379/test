@@ -1,0 +1,6 @@
+struct CSMXP_V3 
+{
+	unsigned long SRC;
+	unsigned long DST;
+	sequence<octet, 1450> MSG;
+};

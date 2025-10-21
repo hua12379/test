@@ -1,0 +1,529 @@
+[2025-09-25 10:46:40.184] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 10:46:40.184] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:46:40.184] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:46:40.199] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 10:46:40.200] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 10:46:40.200] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 10:46:40.200] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7ee3ffe540
+[2025-09-25 10:46:40.200] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 10:46:40.214] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 10:46:42.021] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0166647
+[2025-09-25 10:46:42.102] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 10:46:43.131] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 10:46:43.132] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 10:46:43.132] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 10:46:43.132] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 10:46:43.213] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 10:46:43.225] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 10:46:43.225] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:46:43.226] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:46:43.247] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 10:46:43.248] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:46:43.248] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:46:43.315] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 10:46:43.738] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 10:46:43.739] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 10:46:43.739] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 10:46:56.559] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vo/gpu/x11 ]  warn :  Our window was destroyed, exiting
+
+[2025-09-25 10:54:08.347] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 10:54:08.348] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 10:54:08.348] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 10:54:08.348] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 10:54:08.348] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7f8eb64540
+[2025-09-25 10:54:08.354] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 10:54:09.596] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 10:54:09.596] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:54:09.596] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:54:11.734] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0171891
+[2025-09-25 10:54:11.808] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 10:54:12.192] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 10:54:12.193] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 10:54:12.193] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 10:54:12.193] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 10:54:12.274] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 10:54:12.295] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 10:54:12.296] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:54:12.296] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:54:12.336] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 10:54:12.337] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:54:12.337] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:54:12.356] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 10:54:12.759] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 10:54:12.759] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 10:54:12.780] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 10:55:00.673] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 10:55:00.673] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:55:00.673] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:56:14.702] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 10:56:14.702] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 10:56:14.702] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 10:56:14.702] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 10:56:14.702] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7f83ffe540
+[2025-09-25 10:56:14.708] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 10:56:15.970] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 10:56:15.971] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:56:15.971] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:56:21.654] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0173676
+[2025-09-25 10:56:21.695] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 10:56:22.139] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 10:56:22.139] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 10:56:22.140] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 10:56:22.140] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 10:56:22.241] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 10:56:22.259] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 10:56:22.259] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:56:22.260] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:56:22.313] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 10:56:22.314] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:56:22.314] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:56:22.322] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 10:56:22.806] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 10:56:22.806] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 10:56:22.806] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 10:56:23.841] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 10:56:23.841] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:56:23.841] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:56:35.201] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 10:56:35.202] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 10:58:21.400] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 10:58:21.400] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 10:58:21.401] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 10:58:21.401] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7f995f4540
+[2025-09-25 10:58:21.401] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 10:58:21.407] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 10:58:22.675] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 10:58:22.675] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:58:22.675] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:58:26.198] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.01704
+[2025-09-25 10:58:26.241] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 10:58:26.827] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 10:58:26.827] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 10:58:26.827] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 10:58:26.828] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 10:58:26.888] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 10:58:26.901] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 10:58:26.901] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:58:26.902] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:58:26.923] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 10:58:26.923] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 10:58:26.924] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 10:58:27.010] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 10:58:27.474] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 10:58:27.474] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 10:58:27.475] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 10:58:35.482] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 10:58:35.483] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 11:03:04.330] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 11:03:04.330] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 11:03:04.330] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 11:03:04.330] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 11:03:04.331] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7f677fd540
+[2025-09-25 11:03:04.336] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 11:03:05.624] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 11:03:05.625] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:03:05.625] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:03:07.213] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0167904
+[2025-09-25 11:03:07.243] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 11:03:08.112] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 11:03:08.112] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 11:03:08.113] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 11:03:08.113] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 11:03:08.174] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 11:03:08.185] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 11:03:08.186] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:03:08.186] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:03:08.216] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 11:03:08.217] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:03:08.217] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:03:08.255] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 11:03:08.739] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 11:03:08.740] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 11:03:08.780] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 11:03:15.873] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 11:03:15.874] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 11:15:34.406] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 11:15:34.408] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:15:34.408] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:15:34.429] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 11:15:34.430] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 11:15:34.430] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 11:15:34.430] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7efb7fd540
+[2025-09-25 11:15:34.431] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 11:15:34.445] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 11:15:36.326] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0169062
+[2025-09-25 11:15:36.352] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 11:15:36.756] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 11:15:36.756] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 11:15:36.757] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 11:15:36.757] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 11:15:36.818] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 11:15:36.842] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 11:15:36.842] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:15:36.842] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:15:36.910] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 11:15:36.910] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:15:36.910] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:15:36.919] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 11:15:37.383] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 11:15:37.384] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 11:15:37.404] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 11:15:45.349] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 11:15:45.349] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 11:15:50.987] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 11:15:50.988] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:15:50.988] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:26:18.104] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 11:26:18.105] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:26:18.105] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:26:18.111] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 11:26:18.111] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(7)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 11:26:18.111] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 11:26:18.111] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 11:26:18.111] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7ec7ffe540
+[2025-09-25 11:26:18.118] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 11:26:20.038] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0170491
+[2025-09-25 11:26:20.113] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 11:26:20.537] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 11:26:20.537] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 11:26:20.537] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 11:26:20.537] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 11:26:20.618] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 11:26:20.676] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 11:26:20.677] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:26:20.677] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:26:20.699] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 11:26:20.717] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 11:26:20.717] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:26:20.717] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:26:21.103] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 11:26:21.104] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 11:26:21.104] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 11:26:48.401] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 11:26:48.402] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 11:46:08.563] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 11:46:08.564] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:46:08.564] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:46:08.577] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(23)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 11:46:08.577] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 11:46:08.578] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(53)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 11:46:08.578] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(37)]: [TimeSync] Worker thread started, ID: 0x7ef7ffe540
+[2025-09-25 11:46:08.578] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(127)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 11:46:08.594] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(149)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 11:46:10.422] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0169429
+[2025-09-25 11:46:10.479] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 11:46:10.863] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 11:46:10.863] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 11:46:10.863] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 11:46:10.864] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 11:46:10.985] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 11:46:10.985] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 11:46:11.009] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 11:46:11.010] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:46:11.010] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:46:11.046] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 11:46:11.046] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:46:11.047] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:46:11.570] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 11:46:11.571] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 11:46:11.571] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 11:46:12.945] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 11:46:12.945] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 11:46:12.946] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 11:46:20.714] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 11:46:20.714] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 11:46:20.715] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(171)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 11:46:20.716] [warning]: [File:(), Function(), Line:(0)]: QMetaMethod::invoke: Unable to handle unregistered datatype 'std::vector<uint8_t>'
+[2025-09-25 12:04:33.890] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 12:04:33.892] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 12:04:33.892] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 12:04:33.909] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(22)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 12:04:33.909] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 12:04:33.910] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(52)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 12:04:33.910] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(36)]: [TimeSync] Worker thread started, ID: 0x7f08ff8540
+[2025-09-25 12:04:33.910] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(126)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 12:04:33.917] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(148)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 12:04:35.623] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0173755
+[2025-09-25 12:04:35.711] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 12:04:36.398] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 12:04:36.398] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 12:04:36.398] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 12:04:36.399] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 12:04:36.480] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 12:04:36.492] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 12:04:36.493] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 12:04:36.493] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 12:04:36.517] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 12:04:36.517] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 12:04:36.518] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 12:04:36.581] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 12:04:37.045] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 12:04:37.046] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 12:04:37.046] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 12:04:38.860] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 12:04:38.860] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 12:04:38.860] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 12:04:46.570] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(170)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 12:04:46.571] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(42)]: [TimeSyncWorker] Processing DDS data, size: 56
+[2025-09-25 12:04:46.571] [debug]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseCsmxpMessage(const std::vector<unsigned char>&)), Line:(94)]: [TimeSyncWorker] CSMXP frame - UnitCount: 1 SerialNo: 125
+[2025-09-25 12:04:46.572] [info]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseTimeUnit(const uint8_t*, size_t)), Line:(148)]: [TimeSyncWorker] Time unit parsed: "2024-07-06 15:53:28"
+[2025-09-25 12:04:46.572] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(45)]: [TimeSyncWorker] DDS message parsed successfully
+[2025-09-25 12:04:46.572] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(199)]: [TimeSync] ======== FIRST TIME SYNC SUCCESS ========
+[2025-09-25 12:04:46.573] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(200)]: [TimeSync] Synced time: "2024-07-06 15:53:28"
+[2025-09-25 12:04:46.573] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(201)]: [TimeSync] =========================================
+[2025-09-25 12:04:46.573] [debug]: [File:(../playmain.cpp), Function(playMain::initTimeSync()::<lambda(const QDateTime&)>), Line:(64)]: ========================================
+[2025-09-25 12:04:46.573] [debug]: [File:(../playmain.cpp), Function(playMain::initTimeSync()::<lambda(const QDateTime&)>), Line:(65)]: 时间同步成功
+[2025-09-25 12:04:46.573] [debug]: [File:(../playmain.cpp), Function(playMain::initTimeSync()::<lambda(const QDateTime&)>), Line:(66)]: 同步时间: "2024-07--06 15:53:28"
+[2025-09-25 12:04:46.573] [debug]: [File:(../playmain.cpp), Function(playMain::initTimeSync()::<lambda(const QDateTime&)>), Line:(67)]: ========================================
+[2025-09-25 12:05:17.065] [warning]: [File:(../TimeSync.cpp), Function(void TimeSync::checkSyncTimeout()), Line:(186)]: [TimeSync] Sync lost - no update for 38520709065 ms
+[2025-09-25 14:06:42.583] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(22)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 14:06:42.583] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 14:06:42.584] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(52)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 14:06:42.584] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(36)]: [TimeSync] Worker thread started, ID: 0x7f708fe540
+[2025-09-25 14:06:42.584] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(126)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 14:06:42.599] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(148)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 14:06:43.896] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 14:06:43.896] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:06:43.897] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:06:45.886] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.016786
+[2025-09-25 14:06:45.911] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 14:06:47.345] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 14:06:47.346] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 14:06:47.346] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 14:06:47.346] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 14:06:47.407] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 14:06:47.419] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 14:06:47.419] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:06:47.419] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:06:47.455] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 14:06:47.456] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:06:47.456] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:06:47.468] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 14:06:47.932] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 14:06:47.932] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 14:06:47.953] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 14:07:10.002] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(170)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 14:07:10.002] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(42)]: [TimeSyncWorker] Processing DDS data, size: 56
+[2025-09-25 14:07:10.005] [debug]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseCsmxpMessage(const std::vector<unsigned char>&)), Line:(94)]: [TimeSyncWorker] CSMXP frame - UnitCount: 1 SerialNo: 125
+[2025-09-25 14:07:10.005] [info]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseTimeUnit(const uint8_t*, size_t)), Line:(148)]: [TimeSyncWorker] Time unit parsed: "2024-07-06 15:53:28"
+[2025-09-25 14:07:10.005] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(45)]: [TimeSyncWorker] DDS message parsed successfully
+[2025-09-25 14:07:10.005] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(199)]: [TimeSync] ======== FIRST TIME SYNC SUCCESS ========
+[2025-09-25 14:07:10.005] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(200)]: [TimeSync] Synced time: "2024-07-06 15:53:28"
+[2025-09-25 14:07:10.006] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(201)]: [TimeSync] =========================================
+[2025-09-25 14:07:10.006] [debug]: [File:(../main.cpp), Function(main(int, char**)::<lambda(const QDateTime&)>), Line:(26)]: ========================================
+[2025-09-25 14:07:10.006] [debug]: [File:(../main.cpp), Function(main(int, char**)::<lambda(const QDateTime&)>), Line:(27)]: 时间同步成功
+[2025-09-25 14:07:10.006] [debug]: [File:(../main.cpp), Function(main(int, char**)::<lambda(const QDateTime&)>), Line:(28)]: 同步时间: "2024-07--06 15:53:28"
+[2025-09-25 14:07:10.007] [debug]: [File:(../main.cpp), Function(main(int, char**)::<lambda(const QDateTime&)>), Line:(29)]: ========================================
+[2025-09-25 14:07:14.618] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 14:07:14.618] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:07:14.618] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:07:40.065] [warning]: [File:(../TimeSync.cpp), Function(void TimeSync::checkSyncTimeout()), Line:(186)]: [TimeSync] Sync lost - no update for 38528052065 ms
+[2025-09-25 14:25:15.466] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 14:25:15.466] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 14:25:15.466] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 14:25:15.466] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(130)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 14:25:15.466] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f97683540
+[2025-09-25 14:25:15.472] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(152)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 14:25:16.716] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 14:25:16.717] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:25:16.717] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:25:18.375] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0168274
+[2025-09-25 14:25:18.427] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 14:25:18.831] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 14:25:18.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 14:25:18.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 14:25:18.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 14:25:18.913] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 14:25:18.947] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 14:25:18.947] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:25:18.947] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:25:18.948] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 14:25:18.977] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 14:25:18.978] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:25:18.978] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:25:19.453] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 14:25:19.453] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 14:25:19.493] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 14:25:27.459] [debug]: [File:(../TimeSync.cpp), Function(static void TimeSync::ddsDataHandler(const std::vector<unsigned char>&, void*)), Line:(174)]: [TimeSync] DDS data received, size: 56
+[2025-09-25 14:25:27.460] [debug]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(42)]: [TimeSyncWorker] Processing DDS data, size: 56
+[2025-09-25 14:25:27.460] [debug]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseCsmxpMessage(const std::vector<unsigned char>&)), Line:(94)]: [TimeSyncWorker] CSMXP frame - UnitCount: 1 SerialNo: 125
+[2025-09-25 14:25:27.460] [info]: [File:(../TimeSyncWorker.cpp), Function(bool TimeSyncWorker::parseTimeUnit(const uint8_t*, size_t)), Line:(148)]: [TimeSyncWorker] Time unit parsed: "2024-07-06 15:53:28"
+[2025-09-25 14:25:27.460] [info]: [File:(../TimeSyncWorker.cpp), Function(void TimeSyncWorker::processDdsData(const std::vector<unsigned char>&)), Line:(45)]: [TimeSyncWorker] DDS message parsed successfully
+[2025-09-25 14:25:27.460] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(203)]: [TimeSync] ======== FIRST TIME SYNC SUCCESS ========
+[2025-09-25 14:25:27.461] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(204)]: [TimeSync] Synced time: "2024-07-06 15:53:28"
+[2025-09-25 14:25:27.461] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::onTimeParsed(const QDateTime&)), Line:(205)]: [TimeSync] =========================================
+[2025-09-25 14:25:57.064] [warning]: [File:(../TimeSync.cpp), Function(void TimeSync::checkSyncTimeout()), Line:(190)]: [TimeSync] Sync lost - no update for 38529149063 ms
+[2025-09-25 14:42:05.593] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 14:42:05.593] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 14:42:05.593] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 14:42:05.594] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(130)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 14:42:05.594] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f6d2c3540
+[2025-09-25 14:42:05.600] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(152)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 14:42:06.855] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 14:42:06.855] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:42:06.855] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:42:08.399] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0167528
+[2025-09-25 14:42:08.464] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 14:42:09.575] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (hevc 1920x1080 25.000fps)
+
+[2025-09-25 14:42:09.576] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (aac 1ch 16000Hz)
+
+[2025-09-25 14:42:09.576] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 14:42:09.576] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 14:42:09.636] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 14:42:09.648] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 14:42:09.648] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:42:09.648] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:42:09.688] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 14:42:09.689] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 14:42:09.689] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 14:42:09.697] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 16000Hz mono 1ch float
+
+[2025-09-25 14:42:09.758] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 14:42:09.759] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 14:42:09.779] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
+[2025-09-25 18:36:38.778] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 18:36:38.779] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 18:36:38.779] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 18:36:38.779] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(130)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 18:36:38.779] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f7a502540
+[2025-09-25 18:36:38.785] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(152)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 18:36:40.064] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 18:36:40.064] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 18:36:40.064] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 18:36:41.744] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0168475
+[2025-09-25 18:36:41.780] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 18:36:44.790] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(124)]: 0  mpv 错误： unrecognized file format
+[2025-09-25 18:36:44.794] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual void MpvPlayer::onMpvEvents(int, my_mpv_event_id)), Line:(381)]: 关闭 0  mpv耗时： 0.00383717
+[2025-09-25 18:36:51.827] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 4
+[2025-09-25 18:36:51.828] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 18:36:51.828] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 18:36:58.187] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-25 18:36:58.187] [warning]: [File:(), Function(), Line:(0)]: QFileSystemWatcher::removePaths: list is empty
+[2025-09-25 18:37:30.479] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(26)]: [TimeSync] Initializing TimeSync system
+[2025-09-25 18:37:30.479] [info]: [File:(../TimeSyncWorker.cpp), Function(TimeSyncWorker::TimeSyncWorker(QObject*)), Line:(8)]: [TimeSyncWorker] Worker created in thread:
+[2025-09-25 18:37:30.479] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)), Line:(56)]: [TimeSync] TimeSync system initialized successfully
+[2025-09-25 18:37:30.479] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(130)]: [TimeSync] Starting DDS subscription - Domain: 0 Topic: "CSMXP_TimeSync" IP: "239.255.0.1" Port: 7400
+[2025-09-25 18:37:30.479] [info]: [File:(../TimeSync.cpp), Function(TimeSync::TimeSync(QObject*)::<lambda()>), Line:(40)]: [TimeSync] Worker thread started, ID: 0x7f75992540
+[2025-09-25 18:37:30.485] [info]: [File:(../TimeSync.cpp), Function(void TimeSync::subscribeDDS(int, const QString&, const QString&, int)), Line:(152)]: [TimeSync] DDS subscription started successfully
+[2025-09-25 18:37:31.760] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 0
+[2025-09-25 18:37:31.760] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 18:37:31.760] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 18:37:33.432] [debug]: [File:(../player/MpvPlayer.cpp), Function(virtual int MpvPlayer::startRtspPlay(QString, int64_t)), Line:(127)]: 初始化 0  mpv耗时： 0.0168656
+[2025-09-25 18:37:33.468] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(39)]: 0  mpv 开始播放.
+[2025-09-25 18:37:33.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Video --vid=1 (h264 1920x1080)
+
+[2025-09-25 18:37:33.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :   (+) Audio --aid=1 (pcm_alaw 1ch 8000Hz)
+
+[2025-09-25 18:37:33.832] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :  File tags:
+
+[2025-09-25 18:37:33.833] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ display-tags ]  info :   Title: Media Presentation
+
+[2025-09-25 18:37:33.934] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(45)]: 0  mpv 播放成功.
+[2025-09-25 18:37:33.985] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 7
+[2025-09-25 18:37:33.985] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 18:37:33.985] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 18:37:33.986] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  AO: [pulse] 8000Hz mono 1ch s16
+
+[2025-09-25 18:37:34.017] [debug]: [File:(), Function(), Line:(0)]: cursor, ========== cshape: 8
+[2025-09-25 18:37:34.018] [debug]: [File:(), Function(), Line:(0)]: cursor, size from XGetDefault: 24
+[2025-09-25 18:37:34.018] [debug]: [File:(), Function(), Line:(0)]: cursor, size from ptrXcursorLibraryGetDefaultSize: 24
+[2025-09-25 18:37:34.490] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ vd ]  info :  Using hardware decoding (rkmpp).
+
+[2025-09-25 18:37:34.490] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ autoconvert ]  info :  HW-downloading from drm_prime
+
+[2025-09-25 18:37:34.491] [debug]: [File:(../player/MpvEventThread.cpp), Function(virtual void MpvEventThread::run()), Line:(88)]: 0 mpv log -> [ cplayer ]  info :  VO: [gpu] 1920x1080 nv12
+
