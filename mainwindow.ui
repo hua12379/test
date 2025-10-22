@@ -6,518 +6,1161 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1257</width>
-    <height>757</height>
+    <width>980</width>
+    <height>640</height>
    </rect>
   </property>
-  <property name="windowTitle">
-   <string>系统配置</string>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>580</height>
+   </size>
   </property>
-  <layout class="QGridLayout" name="gridLayout_9">
-   <item row="0" column="0" rowspan="4">
-    <widget class="QGroupBox" name="groupBox">
-     <property name="title">
-      <string>摄像机配置</string>
+  <property name="windowTitle">
+   <string>系统设置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Mainwindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #07121c, stop:0.5 #102f44, stop:1 #0b2233);
+    color: #e6f4ff;
+    font-family: "Microsoft YaHei";
+    font-size: 11pt;
+}
+QLabel#labelTitle {
+    font-size: 22pt;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 6px;
+}
+QFrame#lineAccent {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #1294d6, stop:1 #00c6ff);
+    max-height: 3px;
+    min-height: 3px;
+    border-radius: 2px;
+}
+QTabWidget::pane {
+    border: 1px solid rgba(28, 84, 112, 160);
+    border-radius: 10px;
+    background: rgba(10, 29, 43, 190);
+    margin-top: 12px;
+}
+QTabBar::tab {
+    background: rgba(20, 48, 66, 190);
+    color: #cfe6ff;
+    padding: 10px 28px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 4px;
+    min-width: 140px;
+}
+QTabBar::tab:selected {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #1cc7ff, stop:1 #1279c4);
+    color: #ffffff;
+}
+QTabBar::tab:hover {
+    background: rgba(34, 90, 122, 200);
+}
+QGroupBox {
+    border: 1px solid rgba(44, 93, 120, 190);
+    border-radius: 10px;
+    margin-top: 18px;
+    padding: 16px;
+    background: rgba(8, 22, 32, 200);
+    font-weight: 500;
+    color: #bed9f9;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 20px;
+    padding: 0 6px;
+}
+QLineEdit, QComboBox, QTextEdit, QSpinBox, QDoubleSpinBox, QTimeEdit, QDateTimeEdit {
+    background: rgba(5, 17, 25, 200);
+    border: 1px solid rgba(58, 119, 150, 190);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: #e6f4ff;
+}
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QTimeEdit:focus, QDateTimeEdit:focus {
+    border: 1px solid #3ec6ff;
+}
+QComboBox QAbstractItemView {
+    background: rgba(10, 28, 40, 230);
+    color: #e6f4ff;
+    selection-background-color: #1279c4;
+}
+QSpinBox::up-button, QDoubleSpinBox::up-button {
+    background: rgba(46, 95, 120, 200);
+    border: none;
+    width: 18px;
+}
+QSpinBox::down-button, QDoubleSpinBox::down-button {
+    background: rgba(46, 95, 120, 200);
+    border: none;
+    width: 18px;
+}
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #1cc7ff, stop:1 #0c66a4);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 26px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #3bd3ff, stop:1 #1492d4);
+}
+QPushButton:pressed {
+    background: #0b4f82;
+}
+QCheckBox {
+    spacing: 8px;
+}
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+QCheckBox::indicator:unchecked {
+    border: 1px solid rgba(65, 122, 150, 200);
+    background: rgba(6, 20, 29, 200);
+}
+QCheckBox::indicator:checked {
+    border: 1px solid #44c0ff;
+    background: #1a95d6;
+}
+QTextEdit {
+    min-height: 96px;
+}
+QLabel {
+    color: #d7ecff;
+}
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>18</number>
+   </property>
+   <property name="contentsMargins">
+    <rect>
+     <x>26</x>
+     <y>26</y>
+     <width>26</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <widget class="QLabel" name="labelTitle">
+     <property name="text">
+      <string>系统设置中心</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_5">
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>播放方式</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QCheckBox" name="checkBox">
-        <property name="text">
-         <string>海康SDK</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>367</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="0" column="3">
-       <widget class="QCheckBox" name="checkBox_2">
-        <property name="text">
-         <string>RTSP</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0" colspan="4">
-       <widget class="QGroupBox" name="groupBox_2">
-        <property name="title">
-         <string>机库</string>
-        </property>
-        <layout class="QGridLayout" name="gridLayout">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_2">
-           <property name="text">
-            <string>摄像机IP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QLineEdit" name="lineEdit"/>
-         </item>
-         <item row="0" column="2">
-          <widget class="QLabel" name="label_3">
-           <property name="text">
-            <string>端口:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="3">
-          <widget class="QLineEdit" name="lineEdit_2"/>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_4">
-           <property name="text">
-            <string>用户名:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="lineEdit_3"/>
-         </item>
-         <item row="1" column="2">
-          <widget class="QLabel" name="label_5">
-           <property name="text">
-            <string>密码:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="3">
-          <widget class="QLineEdit" name="lineEdit_4"/>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_6">
-           <property name="text">
-            <string>RTSP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QLineEdit" name="lineEdit_5"/>
-         </item>
-        </layout>
-       </widget>
-      </item>
-      <item row="2" column="0" colspan="4">
-       <widget class="QGroupBox" name="groupBox_3">
-        <property name="title">
-         <string>船翼左舷</string>
-        </property>
-        <layout class="QGridLayout" name="gridLayout_2">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_7">
-           <property name="text">
-            <string>摄像机IP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QLineEdit" name="lineEdit_6"/>
-         </item>
-         <item row="0" column="2">
-          <widget class="QLabel" name="label_8">
-           <property name="text">
-            <string>端口:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="3">
-          <widget class="QLineEdit" name="lineEdit_8"/>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_9">
-           <property name="text">
-            <string>用户名:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="lineEdit_7"/>
-         </item>
-         <item row="1" column="2">
-          <widget class="QLabel" name="label_10">
-           <property name="text">
-            <string>密码:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="3">
-          <widget class="QLineEdit" name="lineEdit_9"/>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_11">
-           <property name="text">
-            <string>RTSP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QLineEdit" name="lineEdit_10"/>
-         </item>
-        </layout>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="4">
-       <widget class="QGroupBox" name="groupBox_4">
-        <property name="title">
-         <string>船翼右舷</string>
-        </property>
-        <layout class="QGridLayout" name="gridLayout_3">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_12">
-           <property name="text">
-            <string>摄像机IP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QLineEdit" name="lineEdit_11"/>
-         </item>
-         <item row="0" column="2">
-          <widget class="QLabel" name="label_13">
-           <property name="text">
-            <string>端口:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="3">
-          <widget class="QLineEdit" name="lineEdit_12"/>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_14">
-           <property name="text">
-            <string>用户名:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="lineEdit_13"/>
-         </item>
-         <item row="1" column="2">
-          <widget class="QLabel" name="label_15">
-           <property name="text">
-            <string>密码:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="3">
-          <widget class="QLineEdit" name="lineEdit_14"/>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_16">
-           <property name="text">
-            <string>RTSP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QLineEdit" name="lineEdit_15"/>
-         </item>
-        </layout>
-       </widget>
-      </item>
-      <item row="4" column="0" colspan="4">
-       <widget class="QGroupBox" name="groupBox_5">
-        <property name="title">
-         <string>备用</string>
-        </property>
-        <layout class="QGridLayout" name="gridLayout_4">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_17">
-           <property name="text">
-            <string>摄像机IP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QLineEdit" name="lineEdit_16"/>
-         </item>
-         <item row="0" column="2">
-          <widget class="QLabel" name="label_18">
-           <property name="text">
-            <string>端口:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="3">
-          <widget class="QLineEdit" name="lineEdit_17"/>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_19">
-           <property name="text">
-            <string>用户名:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="lineEdit_18"/>
-         </item>
-         <item row="1" column="2">
-          <widget class="QLabel" name="label_20">
-           <property name="text">
-            <string>密码:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="3">
-          <widget class="QLineEdit" name="lineEdit_19"/>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_21">
-           <property name="text">
-            <string>RTSP:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QLineEdit" name="lineEdit_20"/>
-         </item>
-        </layout>
-       </widget>
-      </item>
-     </layout>
     </widget>
    </item>
-   <item row="1" column="1">
-    <widget class="QGroupBox" name="groupBox_7">
-     <property name="title">
-      <string>系统配置密码</string>
+   <item>
+    <widget class="QFrame" name="lineAccent">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
      </property>
-     <layout class="QGridLayout" name="gridLayout_7">
-      <item row="0" column="0">
-       <widget class="QLabel" name="label_30">
-        <property name="text">
-         <string>新密码</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_27"/>
-      </item>
-      <item row="1" column="0" colspan="2">
-       <widget class="QLabel" name="label_31">
-        <property name="text">
-         <string>确认密码</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="QLineEdit" name="lineEdit_28"/>
-      </item>
-     </layout>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
     </widget>
    </item>
-   <item row="0" column="1">
-    <widget class="QGroupBox" name="groupBox_6">
-     <property name="title">
-      <string>时统配置</string>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
      </property>
-     <layout class="QGridLayout" name="gridLayout_6">
-      <item row="0" column="0">
-       <widget class="QLabel" name="label_22">
-        <property name="text">
-         <string>授时方式</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QCheckBox" name="checkBox_3">
-        <property name="text">
-         <string>组播UDP</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="3">
-       <widget class="QCheckBox" name="checkBox_4">
-        <property name="text">
-         <string>DDS校时</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QLabel" name="label_23">
-        <property name="text">
-         <string>组播地址:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_21"/>
-      </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_24">
-        <property name="text">
-         <string>组播端口:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_22"/>
-      </item>
-      <item row="3" column="0">
-       <widget class="QLabel" name="label_25">
-        <property name="text">
-         <string>本机IP:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_23"/>
-      </item>
-      <item row="4" column="0">
-       <widget class="QLabel" name="label_26">
-        <property name="text">
-         <string>本机端口:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_24"/>
-      </item>
-      <item row="5" column="0">
-       <widget class="QLabel" name="label_27">
-        <property name="text">
-         <string>域号:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_25"/>
-      </item>
-      <item row="6" column="0">
-       <widget class="QLabel" name="label_28">
-        <property name="text">
-         <string>主题名称:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="1">
-       <widget class="QLineEdit" name="lineEdit_26"/>
-      </item>
-      <item row="7" column="0" colspan="2">
-       <widget class="QLabel" name="label_29">
-        <property name="text">
-         <string>当前报文时间:</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
+     <widget class="QWidget" name="tabCamera">
+      <attribute name="title">
+       <string>摄像机配置</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="cameraLayout">
+       <property name="spacing">
+        <number>14</number>
+       </property>
+       <property name="contentsMargins">
+        <rect>
+         <x>18</x>
+         <y>18</y>
+         <width>18</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupConnection">
+         <property name="title">
+          <string>设备连接</string>
+         </property>
+         <layout class="QGridLayout" name="gridCameraConnection">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelProtocol">
+            <property name="text">
+             <string>厂商协议</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboProtocol">
+            <item>
+             <property name="text">
+              <string>海康威视</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>大华</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ONVIF</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelStreamMode">
+            <property name="text">
+             <string>播放方式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QComboBox" name="comboStreamMode">
+            <item>
+             <property name="text">
+              <string>主码流</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>子码流</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RTSP</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelCameraIp">
+            <property name="text">
+             <string>设备IP</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineCameraIp">
+            <property name="placeholderText">
+             <string>例如：192.168.1.64</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelCameraPort">
+            <property name="text">
+             <string>端口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLineEdit" name="lineCameraPort">
+            <property name="placeholderText">
+             <string>默认：8000</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelCameraUser">
+            <property name="text">
+             <string>用户名</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineCameraUser">
+            <property name="placeholderText">
+             <string>admin</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelCameraPassword">
+            <property name="text">
+             <string>密码</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLineEdit" name="lineCameraPassword">
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+            <property name="placeholderText">
+             <string>请输入密码</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelMainStream">
+            <property name="text">
+             <string>主码流URL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineMainStream">
+            <property name="placeholderText">
+             <string>rtsp://user:pwd@ip:554/Streaming/Channels/101</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labelSubStream">
+            <property name="text">
+             <string>子码流URL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineSubStream">
+            <property name="placeholderText">
+             <string>rtsp://user:pwd@ip:554/Streaming/Channels/102</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="labelRecordPath">
+            <property name="text">
+             <string>视频存储</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineRecordPath">
+            <property name="placeholderText">
+             <string>/data/record/</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="buttonBrowseRecord">
+            <property name="text">
+             <string>浏览...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="labelAutoReconnect">
+            <property name="text">
+             <string>自动重连</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QCheckBox" name="checkAutoReconnect">
+            <property name="text">
+             <string>启用</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2" colspan="2">
+           <widget class="QPushButton" name="buttonTestConnection">
+            <property name="text">
+             <string>测试连接</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupPreview">
+         <property name="title">
+          <string>预览与显示</string>
+         </property>
+         <layout class="QGridLayout" name="gridPreview">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelLayout">
+            <property name="text">
+             <string>预览布局</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboLayout">
+            <item>
+             <property name="text">
+              <string>1x1 单画面</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2x2 四分屏</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>3x3 九分屏</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelDefaultWindow">
+            <property name="text">
+             <string>默认窗口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QComboBox" name="comboDefaultWindow">
+            <item>
+             <property name="text">
+              <string>主监控</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>舱外左舷</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>舱外右舷</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelResolution">
+            <property name="text">
+             <string>分辨率</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboResolution">
+            <item>
+             <property name="text">
+              <string>1920 x 1080</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1280 x 720</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>704 x 576</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelFramerate">
+            <property name="text">
+             <string>帧率</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QComboBox" name="comboFramerate">
+            <item>
+             <property name="text">
+              <string>25 FPS</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>30 FPS</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>60 FPS</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelOverlay">
+            <property name="text">
+             <string>OSD叠加</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QCheckBox" name="checkOverlay">
+            <property name="text">
+             <string>启用</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelAudio">
+            <property name="text">
+             <string>音频</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QCheckBox" name="checkAudio">
+            <property name="text">
+             <string>启用</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelLatency">
+            <property name="text">
+             <string>延迟控制 (ms)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="spinLatency">
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>5000</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>120</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelCycle">
+            <property name="text">
+             <string>轮巡间隔 (s)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QSpinBox" name="spinCycle">
+            <property name="minimum">
+             <number>5</number>
+            </property>
+            <property name="maximum">
+             <number>600</number>
+            </property>
+            <property name="singleStep">
+             <number>5</number>
+            </property>
+            <property name="value">
+             <number>30</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupRecording">
+         <property name="title">
+          <string>录像策略</string>
+         </property>
+         <layout class="QGridLayout" name="gridRecording">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelRecordMode">
+            <property name="text">
+             <string>录像模式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboRecordMode">
+            <item>
+             <property name="text">
+              <string>持续录像</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>定时录像</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>报警触发</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelRecordDays">
+            <property name="text">
+             <string>保留天数</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QSpinBox" name="spinRecordDays">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>90</number>
+            </property>
+            <property name="value">
+             <number>15</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelRecordStart">
+            <property name="text">
+             <string>开始时间</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QTimeEdit" name="timeRecordStart">
+            <property name="displayFormat">
+             <string>HH:mm</string>
+            </property>
+            <property name="time">
+             <time>
+              <hour>8</hour>
+              <minute>0</minute>
+              <second>0</second>
+             </time>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelRecordStop">
+            <property name="text">
+             <string>结束时间</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QTimeEdit" name="timeRecordStop">
+            <property name="displayFormat">
+             <string>HH:mm</string>
+            </property>
+            <property name="time">
+             <time>
+              <hour>18</hour>
+              <minute>0</minute>
+              <second>0</second>
+             </time>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelAlarmInput">
+            <property name="text">
+             <string>报警输入</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboAlarmChannel">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>AI人形</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>区域入侵</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelPreRecord">
+            <property name="text">
+             <string>预录时间 (s)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QSpinBox" name="spinPreRecord">
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>30</number>
+            </property>
+            <property name="value">
+             <number>5</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupCameraMemo">
+         <property name="title">
+          <string>备注信息</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalCameraMemo">
+          <item>
+           <widget class="QTextEdit" name="textCameraMemo">
+            <property name="placeholderText">
+             <string>记录摄像机安装位置、维护联系人等信息…</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabSync">
+      <attribute name="title">
+       <string>时通配置</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="syncLayout">
+       <property name="spacing">
+        <number>14</number>
+       </property>
+       <property name="contentsMargins">
+        <rect>
+         <x>18</x>
+         <y>18</y>
+         <width>18</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupSyncDevice">
+         <property name="title">
+          <string>授时设备</string>
+         </property>
+         <layout class="QGridLayout" name="gridSyncDevice">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelSyncMode">
+            <property name="text">
+             <string>授时模式</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboSyncMode">
+            <item>
+             <property name="text">
+              <string>NTP</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>北斗授时</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>串口授时</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelSyncAccuracy">
+            <property name="text">
+             <string>校时精度</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QComboBox" name="comboSyncAccuracy">
+            <item>
+             <property name="text">
+              <string>毫秒级</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>秒级</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>分钟级</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelNtpServer">
+            <property name="text">
+             <string>NTP服务器</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineNtpServer">
+            <property name="placeholderText">
+             <string>例如：192.168.1.88</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelNtpPort">
+            <property name="text">
+             <string>端口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QSpinBox" name="spinNtpPort">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>65535</number>
+            </property>
+            <property name="value">
+             <number>123</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelSyncInterval">
+            <property name="text">
+             <string>同步间隔 (s)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSpinBox" name="spinSyncInterval">
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="maximum">
+             <number>86400</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>300</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelSyncRetry">
+            <property name="text">
+             <string>最大重试</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QSpinBox" name="spinSyncRetry">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>3</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelSerial">
+            <property name="text">
+             <string>授时串口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="comboSerial">
+            <item>
+             <property name="text">
+              <string>COM1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ttyUSB0</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelSerialBaud">
+            <property name="text">
+             <string>波特率</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QComboBox" name="comboSerialBaud">
+            <item>
+             <property name="text">
+              <string>9600</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>19200</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>115200</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labelDataSerial">
+            <property name="text">
+             <string>数据串口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="comboDataSerial">
+            <item>
+             <property name="text">
+              <string>COM3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ttyUSB1</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="labelDataBaud">
+            <property name="text">
+             <string>波特率</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QComboBox" name="comboDataBaud">
+            <item>
+             <property name="text">
+              <string>4800</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>9600</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>38400</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="labelAutoSync">
+            <property name="text">
+             <string>自动校时</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QCheckBox" name="checkAutoSync">
+            <property name="text">
+             <string>启用</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2" colspan="2">
+           <widget class="QPushButton" name="buttonSyncNow">
+            <property name="text">
+             <string>立即校时</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupSyncThreshold">
+         <property name="title">
+          <string>时间差阈值</string>
+         </property>
+         <layout class="QGridLayout" name="gridSyncThreshold">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelThreshold">
+            <property name="text">
+             <string>阈值 (ms)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="spinThreshold">
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="maximum">
+             <number>2000</number>
+            </property>
+            <property name="value">
+             <number>200</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelAlarmEnable">
+            <property name="text">
+             <string>超限告警</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QCheckBox" name="checkThresholdAlarm">
+            <property name="text">
+             <string>启用</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelAlarmContact">
+            <property name="text">
+             <string>通知联系人</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineAlarmContact">
+            <property name="placeholderText">
+             <string>请输入通知邮箱或电话</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupSyncStatus">
+         <property name="title">
+          <string>同步状态</string>
+         </property>
+         <layout class="QGridLayout" name="gridSyncStatus">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelLastSync">
+            <property name="text">
+             <string>最近同步</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="labelLastSyncValue">
+            <property name="text">
+             <string>尚未同步</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="labelCurrentStatus">
+            <property name="text">
+             <string>状态</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="labelCurrentStatusValue">
+            <property name="text">
+             <string>未连接</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <widget class="QTextEdit" name="textSyncLog">
+            <property name="placeholderText">
+             <string>同步日志将显示在此处，方便排查问题…</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
-   <item row="2" column="1">
-    <widget class="QGroupBox" name="groupBox_8">
-     <property name="title">
-      <string>更多配置</string>
+   <item>
+    <layout class="QHBoxLayout" name="bottomLayout">
+     <property name="spacing">
+      <number>12</number>
      </property>
-     <layout class="QGridLayout" name="gridLayout_8">
-      <item row="0" column="0" colspan="2">
-       <widget class="QLabel" name="label_32">
-        <property name="text">
-         <string>编码器IP:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2" colspan="4">
-       <widget class="QLineEdit" name="lineEdit_29"/>
-      </item>
-      <item row="1" column="0" colspan="2">
-       <widget class="QLabel" name="label_33">
-        <property name="text">
-         <string>编码器用户名:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2" colspan="4">
-       <widget class="QLineEdit" name="lineEdit_30"/>
-      </item>
-      <item row="2" column="0" colspan="2">
-       <widget class="QLabel" name="label_34">
-        <property name="text">
-         <string>编码器密码:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" rowspan="2" colspan="2">
-       <widget class="QLabel" name="label_35">
-        <property name="text">
-         <string>切换进程名:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="2" colspan="4">
-       <widget class="QLineEdit" name="lineEdit_32"/>
-      </item>
-      <item row="5" column="0">
-       <widget class="QLabel" name="label_36">
-        <property name="text">
-         <string>数据串口:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="1" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_33"/>
-      </item>
-      <item row="5" column="3" colspan="2">
-       <widget class="QLabel" name="label_37">
-        <property name="text">
-         <string>授时串口:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="5">
-       <widget class="QLineEdit" name="lineEdit_34"/>
-      </item>
-      <item row="6" column="0" colspan="2">
-       <widget class="QLabel" name="label_38">
-        <property name="text">
-         <string>时间同步间隔:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="0" colspan="2">
-       <widget class="QLabel" name="label_39">
-        <property name="text">
-         <string>录像存储路径:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="2" colspan="2">
-       <widget class="QPushButton" name="pushButton">
-        <property name="text">
-         <string>选择</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="4" colspan="2">
-       <widget class="QCheckBox" name="checkBox_5">
-        <property name="text">
-         <string>存储满提示</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="0" colspan="6">
-       <widget class="QTextEdit" name="textEdit"/>
-      </item>
-      <item row="2" column="2" rowspan="2" colspan="4">
-       <widget class="QLineEdit" name="lineEdit_31"/>
-      </item>
-     </layout>
-    </widget>
+     <item>
+      <spacer name="horizontalSpacerButtons">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonReset">
+       <property name="text">
+        <string>恢复默认</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonSave">
+       <property name="text">
+        <string>保存配置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonCancel">
+       <property name="text">
+        <string>取 消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
